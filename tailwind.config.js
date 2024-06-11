@@ -3,6 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      // For these fonts to work in prodcution, you need to write them like and embed them in the <head> tag in the index html
       fontFamily: {
         serif: "Playfair Display, system-ui, serif",
         bodoni: "Bodoni Moda, system-ui, serif",

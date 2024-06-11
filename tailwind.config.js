@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         serif: "Playfair Display, system-ui, serif",
-        bodoni: "Bodoni Moda, ui-serif, serif",
+        bodoni: "Bodoni Moda, system-ui, serif",
       },
       screens: {
         "3xl": "1920px",

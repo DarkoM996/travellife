@@ -50,27 +50,21 @@ const Navbar = () => {
               : "absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-black/40 backdrop-blur-2xl z-40"
           }
         >
-          <NavLink
-            to="/"
-            className="text-5xl leading-custom-height font-bold py-6"
-          >
+          <NavLink to="/" className="text-5xl leading-custom-height  py-6">
             Home
           </NavLink>
-          <NavLink
-            to="/about"
-            className="text-5xl leading-custom-height font-bold py-6"
-          >
+          <NavLink to="/about" className="text-5xl leading-custom-height py-6">
             About
           </NavLink>
           <NavLink
             to="/destinations"
-            className="text-5xl leading-custom-height font-bold py-6"
+            className="text-5xl leading-custom-height  py-6"
           >
             Destinations
           </NavLink>
           <NavLink
             to="/contact"
-            className="text-5xl leading-custom-height font-bold py-6"
+            className="text-5xl leading-custom-height py-6"
           >
             Contact
           </NavLink>

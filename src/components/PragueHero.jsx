@@ -1,5 +1,4 @@
 import backgroundimage from "../images/prague.jpg";
-
 import { MdOutlineArrowDownward } from "react-icons/md";
 import { easeIn, easeInOut, easeOut, motion } from "framer-motion";
 

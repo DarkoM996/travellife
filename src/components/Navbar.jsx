@@ -42,6 +42,7 @@ const Navbar = () => {
         {/* Menu Dropdown */}
         <ul
           // Write the onclick function here so your menu works properly and when you click on a route taking you somewhere, it works correctly smh.
+          // Fixed size on navigation links per design requirements.
           onClick={handleClick}
           className={
             !nav
@@ -49,16 +50,28 @@ const Navbar = () => {
               : "absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-black/40 backdrop-blur-2xl z-40"
           }
         >
-          <NavLink to="/" className="text-4xl py-6">
+          <NavLink
+            to="/"
+            className="text-5xl leading-custom-height font-bold py-6"
+          >
             Home
           </NavLink>
-          <NavLink to="/about" className="text-4xl py-6">
+          <NavLink
+            to="/about"
+            className="text-5xl leading-custom-height font-bold py-6"
+          >
             About
           </NavLink>
-          <NavLink to="/destinations" className="text-4xl py-6">
+          <NavLink
+            to="/destinations"
+            className="text-5xl leading-custom-height font-bold py-6"
+          >
             Destinations
           </NavLink>
-          <NavLink to="/contact" className="text-4xl py-6">
+          <NavLink
+            to="/contact"
+            className="text-5xl leading-custom-height font-bold py-6"
+          >
             Contact
           </NavLink>
         </ul>
